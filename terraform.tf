@@ -14,14 +14,12 @@ terraform {
     }
   }
 
-  /* Uncomment this block to use Terraform Cloud for this tutorial
   cloud {
-    organization = "organization-name"
+    organization = "Lab-end"
     workspaces {
       name = "learn-terraform-plan"
     }
   }
-*/
 
-  required_version = "~> 1.6"
+required_version = ">= 1.5.0, < 1.7.0"
 }
